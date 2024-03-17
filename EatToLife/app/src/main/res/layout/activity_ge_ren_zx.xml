@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -12,10 +11,78 @@
         android:textColor="#000000"
         android:textSize="19sp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="饮食推荐"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="海鑫楼"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="海联楼"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="海琴楼"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="共享区"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="便利店"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="自定义"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="平衡度"
+            android:textColor="#000000"
+            android:textSize="19sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,7 +161,7 @@
             android:textColor="#000000"
             android:textSize="19sp" />
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="身高"
@@ -123,6 +190,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="健康统计图"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+"
             android:textColor="#000000"
             android:textSize="10sp" />
 
