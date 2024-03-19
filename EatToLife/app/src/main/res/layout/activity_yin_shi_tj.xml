@@ -4,16 +4,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="55sp"
-        android:gravity="center"
-        android:text="海鑫楼" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="right"
+            android:text="早餐" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="时间表" />
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
 
         <ScrollView
             android:layout_width="0dp"
@@ -26,20 +40,76 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <Button
+                <Spinner
+                    android:id="@+id/sp_a1"
                     android:layout_width="match_parent"
                     android:layout_height="51sp"
-                    android:text="热量排序" />
+                    android:spinnerMode="dialog" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="51sp"
-                    android:text="热量排序" />
+                    android:text="海鑫A2" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="51sp"
-                    android:text="热量排序" />
+                    android:text="海鑫A3" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="51sp"
+                    android:text="海鑫A4" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="51sp"
+                    android:text="海鑫A5 清真" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="51sp"
+                    android:text="海琴 B1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="51sp"
+                    android:text="海琴 B2" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="51sp"
+                    android:text="海琴 B3" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="51sp"
+                    android:text="海联F1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="51sp"
+                    android:text="海联F2 特色" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="51sp"
+                    android:text="海联楼F2招待" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="51sp"
+                    android:text="北广西点房" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="51sp"
+                    android:text="图书馆咖啡厅" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="51sp"
+                    android:text="海鑫F2咖啡吧" />
             </LinearLayout>
 
         </ScrollView>
@@ -47,18 +117,39 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2">
+            android:layout_weight="2"
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="51sp"
+                android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tips：热量排序" />
+
+                <Button
+                    android:layout_width="88sp"
                     android:layout_height="match_parent"
                     android:text="热量排序" />
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="51sp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tips：热量排序" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
